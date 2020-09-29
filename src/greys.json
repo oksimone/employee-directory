@@ -1,0 +1,63 @@
+[
+    {
+    "id": 1,
+    "name": "Meredith Grey",
+    "occupation": "Head of General Surgery",
+    "email": "mgrey.greysloan@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Miranda Bailey",
+        "occupation": "Board Member",
+        "email": "mbailey.greysloan@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Richard Weber",
+            "occupation": "Chief of Surgery",
+            "email": "rweber.greysloan@gmail.com"
+            },
+            {
+                "id": 4,
+                "name": "Owen Hunt",
+                "occupation": "Head of Trauma Surgery",
+                "email": "ohunt.greysloan@gmail.com"
+                },
+                {
+                    "id": 5,
+                    "name": "Christina Yang",
+                    "occupation": "Director of Cardiothoracic Surgery",
+                    "email": "cyang.greysloan@gmail.com"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Derek Sheppard",
+                        "occupation": "Head of Neurosurgery",
+                        "email": "dsheppard.greysloan@gmail.com"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Mark Sloan",
+                            "occupation": "Director of Cardiothoracic Surgery",
+                            "email": "msloan.greysloan@gmail.com"
+                            },
+                            {
+                                "id": 8,
+                                "name": "Christina Yang",
+                                "occupation": "Head of Plastic Surgery",
+                                "email": "cyang.greysloan@gmail.com"
+                                },
+                                {
+                                    "id": 9,
+                                    "name": "George O'Malley",
+                                    "occupation": "Surgical Resident",
+                                    "email": "gomalley.greysloan@gmail.com"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "Alex Karev",
+                                        "occupation": "Head of Pediatric Surgery",
+                                        "email": "akrev.greysloan@gmail.com"
+                                        }
+                                    
+]

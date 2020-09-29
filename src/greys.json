@@ -58,5 +58,40 @@
         "name": "Alex Karev",
         "occupation": "Head of Pediatric Surgery",
         "email": "akrev.greysloan@gmail.com"
+    },
+    {
+        "id": 11,
+        "name": "Lexie Grey",
+        "occupation": "Surgical Resident",
+        "email": "lgrey.greysloan@gmail.com"
+    },
+    {
+        "id": 12,
+        "name": "Andrew DeLuca",
+        "occupation": "Surgical Resident",
+        "email": "adeluca.greysloan@gmail.com"
+    },
+    {
+        "id": 13,
+        "name": "Teddy Altman",
+        "occupation": "Co-Head of Cardiothoracic Surgery",
+        "email": "taltman.greysloan@gmail.com"
+    },
+    {
+        "id": 14,
+        "name": "Addison Montgomery",
+        "occupation": "Head of Neonatal Surgery",
+        "email": "amontgomery.greysloan@gmail.com"
+    },
+    {
+        "id": 15,
+        "name": "Amelia Sheppard",
+        "occupation": "Head of Neuro Surgery",
+        "email": "asheppard.greysloan@gmail.com"
+    },  {
+        "id": 16,
+        "name": "Jo Wilson",
+        "occupation": "Attending General Surgeon",
+        "email": "jwilson.greysloan@gmail.com"
     }
 ]

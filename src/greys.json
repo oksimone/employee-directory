@@ -38,14 +38,14 @@
                         {
                             "id": 7,
                             "name": "Mark Sloan",
-                            "occupation": "Director of Cardiothoracic Surgery",
+                            "occupation": "Head of Plastic Surgery",
                             "email": "msloan.greysloan@gmail.com"
                             },
                             {
                                 "id": 8,
-                                "name": "Christina Yang",
+                                "name": "Jackson Avery",
                                 "occupation": "Head of Plastic Surgery",
-                                "email": "cyang.greysloan@gmail.com"
+                                "email": "javery.greysloan@gmail.com"
                                 },
                                 {
                                     "id": 9,

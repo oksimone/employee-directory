@@ -9,7 +9,41 @@ class App extends React.Component {
   state = {
     greys: greys,
     shadowGreys: greys,
+    sortOrder: ""
   };
+
+  handleSort =() =>{
+    let newSort 
+    console.log("hit")
+    if(this.state.sortOrder !== "des"){
+    newSort = this.state.greys.sort((a,b) => {
+       let comparison = 0;
+    if (a.name > b.name) {
+      comparison = 1;
+    } else if (a.name < b.name) {
+      comparison = -1;
+    }
+    return comparison;
+    }
+    );
+  }
+  else{
+    newSort = this.state.greys.sort((a,b) => {
+      let comparison = 0;
+      if (a.name > b.name) {
+        comparison = -1;
+      } else if (a.name < b.name) {
+        comparison = 1;
+      }
+      return comparison;
+    }
+    );
+  }
+  const newSortOrder = this.state.sortOrder === "des"? "asc": "des"
+  this.setState({greys: newSort, sortOrder:newSortOrder})
+  }
+
+
 
   handleInputChange = (event) => {
     console.log(event.target.value);
@@ -42,7 +76,7 @@ class App extends React.Component {
       <div className="container">
         <Header />
         <Search searchGrey={this.handleInputChange} />
-        <TableData state={this.state} />
+        <TableData handleSort={this.handleSort} state={this.state} />
       </div>
     );
   }

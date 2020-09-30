@@ -10,12 +10,14 @@ const styles = {
 };
 
 function TableData(props) {
+
+  
     return (
       <Table striped bordered hover variant="dark" style={styles.table}>
         <thead>
           <tr>
             <th>#</th>
-            <th>Name</th>
+            <th onClick={() => props.handleSort()}>Name</th>
             <th>Occupation</th>
             <th>Email</th>
           </tr>
